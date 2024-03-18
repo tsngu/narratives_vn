@@ -25,7 +25,7 @@ def main():
         if response.status_code == 200:
             article_urls = extract_article_urls(response.content)
             num_articles += len(article_urls)
-            write_urls_to_file(article_urls, 'article_urls.txt')
+            write_urls_to_file(article_urls, '../txt/nd_urls.txt')
 
             soup = BeautifulSoup(response.content, 'html.parser')  # Mettre à jour le contenu de la soupe
             load_more_button = soup.find('button', class_='text control__loadmore')

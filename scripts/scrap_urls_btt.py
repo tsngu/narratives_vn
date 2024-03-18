@@ -34,7 +34,7 @@ def main():
             if num_new_urls == 0:
                 break
             num_articles += num_new_urls
-            write_urls_to_file(new_urls, 'article_urls.txt')
+            write_urls_to_file(new_urls, '../txt/article_urls.txt')
             collected_urls.update(new_urls)
 
             page_number += 1

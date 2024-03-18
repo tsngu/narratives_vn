@@ -1,0 +1,10 @@
+Theo công_bố , ông Sam_Altman sẽ tham_gia hội_đồng quản_trị cùng 3 thành_viên mới bao_gồm bà Sue_Desmond - Hellmann ( cựu CEO Quỹ Bill & Melinda_Gates ) , bà Nicole_Seligman ( cựu_chủ_tịch Sony_Entertainment ) và bà Fidji_Simo ( CEO Instacart ) .
+Sau khi sa_thải ông Altman vào tháng 11 / 2023 , OpenAI đưa ông Bret_Taylor ( cựu CEO Salesforce ) , ông Larry_Summers ( cựu bộ_trưởng Bộ Tài_chính Mỹ ) và ông Adam D ' Angelo ( cựu CEO Quora ) lên làm thành_viên hội_đồng quản_trị .
+Ngày 17 / 11 / 2023 , hội_đồng quản_trị OpenAI bất_ngờ thông_báo sa_thải ông Sam_Altman mà không đưa ra bất_kỳ lý_do cụ_thể_nào khiến công_ty rơi vào hỗn_loạn .
+Đến ngày 21 / 11 / 2023 , OpenAI cho biết họ đã đạt được thỏa_thuận để ông Sam Altman quay lại vị_trí cũ đồng_thời thành_lập hội_đồng quản_trị mới .
+Hội_đồng quản_trị mới đã mở một cuộc điều_tra nội_bộ và xác_định rằng ông Altmann bị sa_thải nhầm .
+Họ đã xem_xét hơn 30.000 tài_liệu , thực_hiện hàng chục cuộc phỏng_vấn với nhân_viên , giám_đốc điều_hành , hội_đồng_tiền_nhiệm và một_số_nhân_chứng khác .
+Cuộc điều_tra do công_ty luật WilmerHale thực_hiện , kết_luận rằng ông Altman bị sa_thải vì lý_do chính_xác mà hội_đồng quản_trị đã nêu : sự mất_lòng tin giữa Altman và hội_đồng quản_trị – không phải bất_kỳ mối lo_ngại nào về an_toàn hoặc an_ninh liên_quan đến trí_tuệ nhân_tạo , như một_số người đã suy_đoán .
+Sam_Altman và người đồng sáng_lập Greg Brockman được kết_luận là hai nhà lãnh_đạo phù_hợp cho OpenAI
+Hiện_tại , OpenAI đang vướng vào cuộc_chiến pháp_lý với tỉ_phú Elon_Musk . CEO hãng xe điện Tesla cáo_buộc ông Altman và một_số CEO khác vì “ không thực_hiện sứ_mệnh phát_triển trí_tuệ nhân_tạo vì lợi_ích chung của nhân_loại ” .
+OpenAI cũng đang bị báo New_York Times kiện với cáo_buộc sử_dụng trái_phép tác_phẩm của họ để đào_tạo ChatGPT và nhiều ứng_dụng khác .
