@@ -2,7 +2,7 @@ import py_vncorenlp
 
 # Automatically download VnCoreNLP components from the original repository
 # and save them in some local working folder
-#py_vncorenlp.download_model(save_dir='../vncorenlp/')
+py_vncorenlp.download_model(save_dir='../vncorenlp/')
 
 # Load VnCoreNLP from the local working folder that contains both `VnCoreNLP-1.2.jar` and `models` 
 model = py_vncorenlp.VnCoreNLP(save_dir='../vncorenlp/')
