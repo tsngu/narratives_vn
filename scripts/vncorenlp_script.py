@@ -1,5 +1,6 @@
 import py_vncorenlp
 import os
+from tqdm import tqdm
 
 # Automatically download VnCoreNLP components from the original repository
 # and save them in some local working folder
@@ -13,6 +14,9 @@ input_folder = "../output/btt/"
 output_folder = "../output/vncorenlp/btt/"
 txt_files = [file for file in os.listdir(input_folder) if file.endswith(".txt")]
 
+# Créer une barre de progression avec tqdm
+progress_bar = tqdm(total=len(txt_files), desc="Annotating Files")
+
 # Boucler sur chaque fichier .txt
 for txt_file in txt_files:
     input_file_path = os.path.join(input_folder, txt_file)
@@ -20,3 +24,9 @@ for txt_file in txt_files:
     
     # Annoter le fichier d'entrée et enregistrer le résultat dans le dossier de sortie avec le même nom de fichier
     model.annotate_file(input_file=input_file_path, output_file=output_file_path)
+    
+    # Mettre à jour la barre de progression
+    progress_bar.update(1)
+
+# Fermer la barre de progression à la fin du traitement
+progress_bar.close()
