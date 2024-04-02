@@ -1,0 +1,89 @@
+1	Cảnh_sát	N	O	3	sub
+2	cũng	R	O	3	adv
+3	cho	V	O	0	root
+4	biết	V	O	3	vmod
+5	do	E	O	3	prp
+6	điều_kiện	N	O	5	pob
+7	nguy_hiểm	A	O	6	nmod
+8	tại	E	O	6	loc
+9	hiện_trường	N	O	8	pob
+10	,	CH	O	3	punct
+11	nỗ_lực	N	O	14	sub
+12	cứu_hộ	V	O	11	nmod
+13	tạm	A	O	14	vmod
+14	dừng	V	O	3	vmod
+15	trong	E	O	14	tmp
+16	buổi	N	O	15	pob
+17	chiều	N	O	16	nmod
+18	.	CH	O	3	punct
+
+1	 	CH	O	0	punct
+
+1	Lực_lượng	N	O	6	sub
+2	cứu_hộ	V	O	1	nmod
+3	tại	E	O	1	loc
+4	thành_phố	N	B-LOC	3	pob
+5	Hpakant	Np	I-LOC	4	nmod
+6	cho	V	O	0	root
+7	biết	V	O	6	vmod
+8	đội	N	O	11	sub
+9	cứu_hộ	V	O	8	nmod
+10	đang	R	O	11	adv
+11	làm_việc	V	O	6	vmod
+12	tại	E	O	11	loc
+13	hiện_trường	N	O	12	pob
+14	và	Cc	O	11	coord
+15	đã	R	O	16	adv
+16	tìm	V	O	14	conj
+17	thấy	V	O	16	vmod
+18	1	M	O	19	det
+19	thi_thể	N	O	16	dob
+20	và	Cc	O	11	coord
+21	4	M	O	22	det
+22	người	N	O	24	sub
+23	khác	A	O	22	nmod
+24	bị_thương	V	O	20	conj
+25	nặng	A	O	24	vmod
+26	.	CH	O	6	punct
+
+1	 	CH	O	0	punct
+
+1	Theo	E	O	8	tpc
+2	người_dân	N	O	1	pob
+3	địa_phương	N	O	2	nmod
+4	,	CH	O	8	punct
+5	khoảng	N	O	7	nmod
+6	30	M	O	7	det
+7	người	N	O	8	sub
+8	mất_tích	V	O	0	root
+9	sau	E	O	8	tmp
+10	vụ	N	O	9	pob
+11	tai_nạn	N	O	10	nmod
+12	.	CH	O	8	punct
+
+1	Vụ	N	O	3	sub
+2	tai_nạn	N	O	1	nmod
+3	xảy	V	O	0	root
+4	ra	V	O	3	adv
+5	vào	E	O	3	tmp
+6	chiều	N	O	5	pob
+7	12/3	M	O	6	det
+8	(	CH	O	3	punct
+9	theo	E	O	3	vmod
+10	giờ_địa_phương	N	O	9	pob
+11	)	CH	O	3	punct
+12	tại	E	O	3	loc
+13	một	M	O	14	det
+14	mỏ	N	O	12	pob
+15	ngọc	N	O	14	nmod
+16	ở	E	O	14	loc
+17	làng	N	B-LOC	16	pob
+18	Ma_Na	Np	I-LOC	17	nmod
+19	,	CH	O	17	punct
+20	thành_phố	N	B-LOC	17	nmod
+21	Hpakant	Np	I-LOC	20	nmod
+22	,	CH	O	17	punct
+23	bang	N	B-LOC	17	nmod
+24	Kachin	Np	I-LOC	23	nmod
+25	.	CH	O	3	punct
+
