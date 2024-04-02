@@ -28,9 +28,9 @@ def replace_underscores(input_directory, output_directory):
                 print(f"Les underscores ont été remplacés par des espaces dans '{file_path}' et sauvegardés dans '{output_file_path}'.")
 
 # Chemin du dossier d'entrée
-input_directory_path = "../output/vnp/"
+input_directory_path = "../output/nd/"
 # Chemin du dossier de sortie
-output_directory_path = "../output/vnp_notoken/"
+output_directory_path = "../output/nd_notoken/"
 
 # Remplace les underscores par des espaces dans les fichiers texte du dossier d'entrée
 # et sauvegarde les fichiers modifiés dans le dossier de sortie

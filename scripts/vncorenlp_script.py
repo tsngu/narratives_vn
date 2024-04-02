@@ -6,8 +6,8 @@ from tqdm import tqdm
 model = py_vncorenlp.VnCoreNLP(save_dir='../vncorenlp/')
 
 # Récupérer la liste de tous les fichiers .txt dans le dossier output/btt/
-input_folder = "../output/vnp_notoken/"
-output_folder = "../output/vncorenlp/vnp/"
+input_folder = "../output/nd_notoken/"
+output_folder = "../output/vncorenlp/nd/"
 txt_files = [file for file in os.listdir(input_folder) if file.endswith(".txt")]
 
 # Créer une barre de progression avec tqdm
