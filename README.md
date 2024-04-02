@@ -10,6 +10,7 @@
   - Pareil, il y en a un par site.
 - **lda_generale** permet de faire la visualisation de tous les articles ensemble, pour pouvoir comparer.
 - **tokenizer_vn** permet de tokenizer les articles.
+- **vncorenlp_script** permet d'obtenir des treebanks. Il faut l'appliquer sur des textes non tokénisés.
 
 **txt** :
 - **urls**_nomSite sont les fichiers d'urls créées par les scripts **scrap_urls**.
@@ -17,5 +18,6 @@
 - fichier de stopwords pour filtrer les mots.
 
 **output** :
-comme son nom l'indique, permet de stocker les outputs par site.
+comme son nom l'indique, permet de stocker les outputs par site. les dossiers "notoken" sont les articles sans tokenisation et servent au VNCoreNLP
+- **vncorenlp** est le dossier qui contient les articles qui sont passés sous vncorenlp
 
