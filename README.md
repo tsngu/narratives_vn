@@ -3,6 +3,10 @@
 
 #### Explication des dossiers et fichiers.
 
+**Deux corpus** :
+- **le_monde** : catégorie "le monde" sur les 3 sites
+- **quoc_phong** aka defense : mot clé recherché sur les 3 sites
+
 **scripts** :
 - **scrap_urls**_nomSite permettent de scrap les urls de 500 articles par site.
   - J'ai dû faire plusieurs scripts car les sites n'ont pas le même HTML.
