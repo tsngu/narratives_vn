@@ -1,0 +1,84 @@
+1	Theo	V	O	0	root
+2	cảnh_sát	N	O	1	dob
+3	Bồ_Đào_Nha	Np	B-LOC	2	nmod
+4	,	CH	O	1	punct
+5	lực_lượng	N	O	10	sub
+6	chức_năng	N	O	5	nmod
+7	nước	N	O	6	nmod
+8	này	P	O	5	det
+9	đã	R	O	10	adv
+10	bắt_giữ	V	O	1	vmod
+11	một	M	O	12	det
+12	người	Nc	O	10	dob
+13	đàn_ông	N	O	12	nmod
+14	,	CH	O	12	punct
+15	69	M	O	16	det
+16	tuổi	N	O	12	nmod
+17	,	CH	O	12	punct
+18	ở	E	O	12	loc
+19	miền	N	B-LOC	18	pob
+20	Bắc	Np	I-LOC	19	nmod
+21	nước	N	O	19	nmod
+22	này	P	O	19	det
+23	.	CH	O	1	punct
+
+1	Người	N	O	4	sub
+2	này	P	O	1	det
+3	từng	R	O	4	adv
+4	bị	V	O	0	root
+5	kết_án	V	O	4	vmod
+6	15	M	O	7	det
+7	năm	N	O	5	tmp
+8	tù_giam	V	O	7	nmod
+9	,	CH	O	4	punct
+10	song	C	O	4	coord
+11	đã	R	O	12	adv
+12	bỏ	V	O	10	conj
+13	trốn	V	O	12	vmod
+14	ngay	R	O	13	adv
+15	trước	E	O	13	tmp
+16	khi	N	O	15	pob
+17	thụ_án	V	O	16	nmod
+18	.	CH	O	4	punct
+
+1	Đối_tượng	N	O	4	sub
+2	này	P	O	1	det
+3	đã	R	O	4	adv
+4	bị	V	O	0	root
+5	đưa	V	O	4	vmod
+6	ra	V	O	5	adv
+7	trình_diện	V	O	5	prp
+8	tại	E	O	7	loc
+9	một	M	O	10	det
+10	toà_án	N	O	8	pob
+11	ở	E	O	10	loc
+12	thành_phố	N	B-LOC	11	pob
+13	Porto	Np	I-LOC	12	nmod
+14	,	CH	O	12	punct
+15	miền	N	B-LOC	12	nmod
+16	Bắc_Bồ_Đào	Np	I-LOC	15	nmod
+17	Nha và	Np	B-LOC	15	nmod
+18	bị	V	O	4	vmod
+19	giam_giữ	V	O	18	vmod
+20	trong	E	O	19	tmp
+21	khi	N	O	20	pob
+22	chờ	V	O	21	nmod
+23	dẫn_độ	V	O	22	vmod
+24	.	CH	O	4	punct
+
+1	 	CH	O	0	punct
+
+1	Camorra	Np	O	2	sub
+2	là	V	O	0	root
+3	một	M	O	2	dob
+4	trong	E	O	3	pmod
+5	3	M	O	6	det
+6	nhóm	N	O	4	pob
+7	tội_phạm	N	O	6	nmod
+8	có	V	O	2	dep
+9	tổ_chức	N	O	8	dob
+10	khét_tiếng	A	O	9	nmod
+11	ở	E	O	9	loc
+12	Italy	Np	B-LOC	11	pob
+13	.	CH	O	2	punct
+
