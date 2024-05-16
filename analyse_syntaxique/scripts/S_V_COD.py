@@ -1,5 +1,6 @@
 import os
 import csv
+import sys
 
 def lire_fichier_csv(fichier):
     phrases = []
@@ -33,13 +34,32 @@ def extraire_sujet_verbe_cod(phrases):
             sujet_verbe_cod.append((sujet, verbe, cod))
     return sujet_verbe_cod
 
+# Vérification des arguments en ligne de commande
+if len(sys.argv) != 2:
+    print("Utilisation: python script.py dossier_entree")
+    sys.exit(1)
 
-# Chemin vers le dossier contenant les fichiers
-dossier_entree = "./nd"
-fichier_sortie = "./resultats_suj_cod.csv"
+dossier_entree = sys.argv[1]
 
-with open(fichier_sortie, 'w', newline='', encoding='utf-8') as f_out:
+# Vérification si le dossier d'entrée existe
+if not os.path.isdir(dossier_entree):
+    print("Le dossier d'entrée spécifié n'existe pas.")
+    sys.exit(1)
+
+# Générer le nom du fichier de sortie
+nom_fichier_sortie = "resultats_suj_cod.csv"
+
+# Noms des colonnes
+colonnes = ['Nom du Fichier', 'Sujet', 'Verbe', 'COD']
+
+# Ouvrir le fichier de sortie en mode écriture
+with open(nom_fichier_sortie, 'w', newline='', encoding='utf-8') as f_out:
     csv_writer = csv.writer(f_out)
+    
+    # Écrire les noms de colonnes dans le fichier CSV
+    csv_writer.writerow(colonnes)
+    
+    # Parcourir les fichiers dans le dossier d'entrée
     for fichier in os.listdir(dossier_entree):
         if fichier.endswith('.csv'):
             chemin_fichier_entree = os.path.join(dossier_entree, fichier)
@@ -47,3 +67,4 @@ with open(fichier_sortie, 'w', newline='', encoding='utf-8') as f_out:
             sujet_verbe_cod = extraire_sujet_verbe_cod(phrases)
             for sujet, verbe, cod in sujet_verbe_cod:
                 csv_writer.writerow([fichier, sujet, verbe, cod])
+
