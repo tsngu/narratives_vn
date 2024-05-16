@@ -4,6 +4,11 @@
 
 Nous souhaitons faire une analyse contrastive entre ces sites pour confronter la narrative sur une presse "libre" au vietnam. Est-ce que les seules ressources disponibles prouvent qu'il existe une pluralité idéologique de la presse ? Est-ce que l'on retrouve des formes de discours, des récurrences ? Celles-ci appuient-elles notre travail initial de recherche ? 
 
+
+Notre recherche est au-delà d'une simple analyse syntaxique. En effet, elle tend plutôt à s'inscrire dans une analyse du discours. Celle-ci ne considère pas ce corpus comme un support d'information mais bien comme nous avons tenté de le démontrer dans notre premier devoir est plutôt de considérer ce corpus et chacun des textes qui le composent comme un *texte*. 
+Ainsi, notre étude cherche à être sémiologique. En effet, notre première partie consistait à définir les "lois qui régissent l'univers raconté" (Claude Bremond, La logique des possibles narratifs)c'est à dire le contexte politique et médiatique de la presse vietnamienne sur internet et dans un second temps, celui du présent devoir qui est "l'analyse techniques de narration" que l'on essaye de faire à l'aide d'une analyse du discours. 
+
+
 2. Le corpus : 
 
 On utilise le même corpus pour toutes les analyses. Nous sommes allées scrapper sur 3 sites vietnamiens des articles de la catégorie International. Notre corpus est constitué d'environ 500 articles par site. 
@@ -47,3 +52,10 @@ Notre travail d'analyse rencontre plusieurs problèmes méthodologiques majeurs 
 Tout d'abord notre corpus n'est pas parfaitement équilibré puisque certains sites sont équipés de pare-feu ce qui nous empêche d'avoir un corpus véritablement représentatif et équilibré. Ainsi les prémices de nos recherches seraient à confirmer en les transférant sur un corpus plus fiable. 
 Et, étant limité dans l'utilisation de logiciels de textométris, nous avons exclusivement traité la syntage à l'aide de scripts python. Ce qui forcément oriente notre recherche et empêche en un sens de "laisser parler" le corpus. 
 Malgré cela, nous pensons que notre étude garde une pertinence et qu'elle est encourageante pour des travaux futurs. Ce sujet de recherche mérite plus de temps et de moyens afin de vraiment "creuser" la question. 
+
+
+7. Bibliographie 
+
+Communications, 8, 1966. Recherches sémiologiques : L'analyse structurale du récit (https://www.persee.fr/issue/comm_0588-8018_1966_num_8_1) 
+L'analyse française du discours (https://shs.hal.science/file/index/docid/396398/filename/index.html) 
+
