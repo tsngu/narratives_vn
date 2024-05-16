@@ -17,10 +17,10 @@ def sortFreqDict(freqs_mots):
     return sorted(freqs_mots.items(), key=lambda x: x[1], reverse=True)[:100]
 
 if __name__ == "__main__":
-    fichier = 'resultats_suj_cod.csv'
+    fichier = '../nv_corpus/output/resultats_sub_root_cau_vnp.csv'
     c = colonne(fichier, 1)
-    print("Type de la colonne :", type(c))
+    #print("Type de la colonne :", type(c))
     res = wordListToFreqDict(c)
-    print("Dictionnaire de fréquence des mots :", res)
+    #print("Dictionnaire de fréquence des mots :", res)
     frequences_ordre = sortFreqDict(res)
     print("Les 100 premières fréquences des mots ordonnées :", frequences_ordre)

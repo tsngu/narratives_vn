@@ -3,9 +3,10 @@
 
 #### Explication des dossiers et fichiers.
 
-**Deux corpus** :
+**Trois corpus** :
 - **le_monde** : catégorie "le monde" sur les 3 sites
 - **quoc_phong** aka defense : mot clé recherché sur les 3 sites
+- **nv_corpus** : corpus sur le mot "défense" mais en ajoutant un corpus français issus du même site (VNP et ND)
 
 **scripts** :
 - **scrap_urls**_nomSite permettent de scrap les urls de 500 articles par site.
