@@ -1,0 +1,58 @@
+1	Theo	E	O	5	adv
+2	thông_báo	N	O	1	pob
+3	,	CH	O	5	punct
+4	máy_bay	N	O	5	sub
+5	rơi	V	O	0	root
+6	do	E	O	5	vmod
+7	động_cơ	N	O	8	sub
+8	bị	V	O	6	dep
+9	cháy	V	O	8	vmod
+10	,	CH	O	5	punct
+11	tuy_nhiên	C	O	5	coord
+12	chưa	R	O	13	amod
+13	rõ	A	O	5	prd
+14	nguyên_nhân	N	O	13	amod
+15	gây	V	O	14	nmod
+16	cháy	V	O	15	vmod
+17	.	CH	O	5	punct
+
+1	Trên	E	O	3	loc
+2	máy_bay	N	O	1	pob
+3	có	V	O	0	root
+4	8	M	O	5	det
+5	thành_viên	N	O	3	dob
+6	phi_hành_đoàn	N	O	5	nmod
+7	và	Cc	O	5	coord
+8	7	M	O	9	det
+9	hành_khách	N	O	7	conj
+10	.	CH	O	3	punct
+
+1	Hiện	N	O	3	tmp
+2	chưa	R	O	3	amod
+3	rõ	A	O	0	root
+4	số_phận	N	O	3	amod
+5	của	E	O	4	nmod
+6	những	L	O	7	det
+7	người	N	O	5	pob
+8	này	P	O	7	det
+9	.	CH	O	3	punct
+
+1	  	CH	O	0	punct
+
+1	Uỷ_ban	N	O	9	sub
+2	điều_tra	V	O	1	nmod
+3	Bộ_Tư_lệnh	Np	B-ORG	1	nmod
+4	Binh_chủng	Np	I-ORG	3	nmod
+5	Không_quân	Np	I-ORG	4	nmod
+6	vũ_trụ	N	I-ORG	5	nmod
+7	Nga	Np	I-ORG	4	nmod
+8	đã	R	O	9	adv
+9	cử	V	O	0	root
+10	người	N	O	9	dob
+11	tới	V	O	10	nmod
+12	Ivanovo	Np	B-LOC	11	loc
+13	để	E	O	9	prp
+14	điều_tra	V	O	13	vmod
+15	vụ_việc	N	O	14	dob
+16	.	CH	O	9	punct
+
