@@ -1,20 +1,19 @@
 # Analyse syntaxique 
 
-1. Démarche global : 
+### 1. Démarche global : 
 
 Nous souhaitons faire une analyse contrastive entre ces sites pour confronter la narrative sur une presse "libre" au vietnam. Est-ce que les seules ressources disponibles prouvent qu'il existe une pluralité idéologique de la presse ? Est-ce que l'on retrouve des formes de discours, des récurrences ? Celles-ci appuient-elles notre travail initial de recherche ? 
-
 
 Notre recherche est au-delà d'une simple analyse syntaxique. En effet, elle tend plutôt à s'inscrire dans une analyse du discours. Celle-ci ne considère pas ce corpus comme un support d'information mais bien comme nous avons tenté de le démontrer dans notre premier devoir est plutôt de considérer ce corpus et chacun des textes qui le composent comme un *texte*. 
 Ainsi, notre étude cherche à être sémiologique. En effet, notre première partie consistait à définir les "lois qui régissent l'univers raconté" (Claude Bremond, La logique des possibles narratifs)c'est à dire le contexte politique et médiatique de la presse vietnamienne sur internet et dans un second temps, celui du présent devoir qui est "l'analyse techniques de narration" que l'on essaye de faire à l'aide d'une analyse du discours. 
 
 
-2. Le corpus : 
+### 2. Le corpus : 
 
 On utilise le même corpus pour toutes les analyses. Nous sommes allées scrapper sur 3 sites vietnamiens des articles de la catégorie International. Notre corpus est constitué d'environ 500 articles par site. 
 
 
-3. Quels sont les patterns que l'on s'attends à rencontrer ? Pourquoi cette démarche ? 
+### 3. Quels sont les patterns que l'on s'attends à rencontrer ? Pourquoi cette démarche ? 
 
 L'analyse syntaxique consiste à mettre en évidence la structure d'un texte, généralement une phrase écrite dans une langue naturelle. 
 Dans la phrase syntaxique, que l'on considère comme une unité de sens, on retrouve 2 constituants obligatoires : le sujet et le prédicat. On peut également retrouver un troisième constituant : le complément de phrase. 
@@ -22,7 +21,7 @@ Pour déterminer le nombre de phrase syntaxique il faut compter le nombre de ver
 Dans la grammaire vietnamienne la construction de la phrase est la même qu'en français. 
 On peut aussi regarder les phrases annotées comme passives ? 
 
-3. Quels sont les outils que l'on utilise pour mettre en évidence les patterns syntaxiques ? 
+### 4. Quels sont les outils que l'on utilise pour mettre en évidence les patterns syntaxiques ? 
 
 On utilise dans un premier temps un annotateur qui nous permet d'annoter syntaxiquement les phrases. 
 Pour ce faire, on utilise l'outil : VnCoreNLP 
@@ -36,17 +35,17 @@ En revanche, le compte-rendu de notre travail actuel nous permets dors et déjà
 
 Dans un soucis de traitement égalitaire, nous avons, malgré les outils existant pour le français, choisi de le traiter avec des outils similaires et en recherchant les mêmes patterns. 
 
-4. Premiers résultats 
+### 5. Premiers résultats 
 
 Pour la première recherche, je veux identifier les sujets et le COD qui leur est associé pour mettre en evidence leur position. 
-J'essaye dans un premier temps sur quatre url. Une fois les résultats dans un fichier csv, je produis et execute un script qui me permet de mettre en valeur les combinaisons qui apparaissent le plus. 
-Ce test sur quelques url nous pousse à nous interroger sur la généralisation de ces outils semi-automatiques qui rendent l'analyse pénible et coûteuse. De même, est-ce que nos machines seront capable de supporter 
+J'essaye dans un premier temps sur quatre urls. Une fois les résultats dans un fichier csv, je produis et execute un script qui me permet de mettre en valeur les combinaisons qui apparaissent le plus. 
+Ce test sur quelques urls nous pousse à nous interroger sur la généralisation de ces outils semi-automatiques qui rendent l'analyse pénible et coûteuse. De même, est-ce que nos machines seront capable de supporter 
 
-5. Résultats sur notre corpus (français et vietnamien) 
+### 6. Résultats sur notre corpus (français et vietnamien) 
 
 
 
-6. Limites de notre étude
+### 7. Limites de notre étude
 
 Notre travail d'analyse rencontre plusieurs problèmes méthodologiques majeurs qu'il est important de signaler. 
 Tout d'abord notre corpus n'est pas parfaitement équilibré puisque certains sites sont équipés de pare-feu ce qui nous empêche d'avoir un corpus véritablement représentatif et équilibré. Ainsi les prémices de nos recherches seraient à confirmer en les transférant sur un corpus plus fiable. 
@@ -54,7 +53,7 @@ Et, étant limité dans l'utilisation de logiciels de textométris, nous avons e
 Malgré cela, nous pensons que notre étude garde une pertinence et qu'elle est encourageante pour des travaux futurs. Ce sujet de recherche mérite plus de temps et de moyens afin de vraiment "creuser" la question. 
 
 
-7. Bibliographie 
+### 8. Bibliographie 
 
 Communications, 8, 1966. Recherches sémiologiques : L'analyse structurale du récit (https://www.persee.fr/issue/comm_0588-8018_1966_num_8_1) 
 L'analyse française du discours (https://shs.hal.science/file/index/docid/396398/filename/index.html) 
