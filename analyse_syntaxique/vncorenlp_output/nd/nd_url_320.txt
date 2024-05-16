@@ -1,0 +1,320 @@
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	punct
+6	8	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	213	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	226	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	7	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	punct
+6	33	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	53	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	620	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	980	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	2964	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	2786	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	196	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	164	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	182	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	102	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	172	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	4114	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	4259	M	O	1	det
+
+1	14	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	5655	M	O	1	det
+
+1	14	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	6494	M	O	1	det
+
+1	14	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	192	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	215	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	dep
+6	18	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	230	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	13	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	16	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	7	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	punct
+6	10	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	12	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	dep
+6	18	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	7	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	punct
+6	33	M	O	1	det
+
+1	15	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	53	M	O	1	det
+
+1	01	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	26837	M	O	1	det
+
+1	02	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	19786	M	O	1	det
+
+1	02	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	18515	M	O	1	det
+
+1	02	M	O	0	root
+2	/	CH	O	1	punct
+3	05	M	O	1	det
+4	/	CH	O	1	punct
+5	2024	M	O	1	det
+6	17722	M	O	1	det
+
+1	©	Nc	O	3	sub
+2	Bản_quyền	Np	O	1	nmod
+3	thuộc	V	O	0	root
+4	về	E	O	3	vmod
+5	Trung_tâm	N	B-ORG	4	pob
+6	Truyền_hình	N	I-ORG	5	nmod
+7	Nhân_Dân	Np	I-ORG	6	nmod
+8	-	CH	O	5	punct
+9	Báo	N	B-ORG	5	nmod
+10	Nhân_Dân	Np	I-ORG	9	nmod
+11	.	CH	O	3	punct
+
+1	Cơ_quan	N	O	0	root
+2	chủ_quản	V	O	1	nmod
+3	:	CH	O	2	punct
+4	Báo	N	B-ORG	1	nmod
+5	Nhân_Dân	Np	I-ORG	4	nmod
+6	;	CH	O	2	punct
+7	Giám_đốc	N	O	4	nmod
+8	Vũ_Duy_Hưng	Np	B-PER	7	nmod
+9	.	CH	O	7	punct
+
+1	Đường_dây_nóng	N	O	0	root
+2	:	CH	O	1	punct
+3	0943.636.389	M	O	1	nmod
+4	-	CH	O	3	punct
+5	024.13.756.756	M	O	3	det
+6	.	CH	O	1	punct
+
+1	Cấm	N	O	8	sub
+2	sao_chép	V	O	1	nmod
+3	dưới	E	O	1	loc
+4	mọi	L	O	5	det
+5	hình_thức	N	O	3	pob
+6	nếu	C	O	8	dep
+7	không	R	O	8	adv
+8	có	V	O	0	root
+9	sự	N	O	8	dob
+10	chấp_thuận	V	O	9	nmod
+11	bằng	E	O	10	mnr
+12	văn_bản	N	O	11	pob
+13	.	CH	O	8	punct
+
+1	Địa_chỉ	N	O	0	root
+2	:	CH	O	1	punct
+3	71	M	O	4	det
+4	Hàng	N	O	1	nmod
+5	Trống	Np	O	4	nmod
+6	-	CH	O	4	punct
+7	Hà_Nội	Np	B-LOC	4	nmod
+
+1	Email	Nb	O	0	root
+2	:	CH	O	1	punct
+3	internet.tv@nhandantv.vn	V	O	1	nmod
+
+1	Phòng	N	O	0	root
+2	QC	Ny	O	1	nmod
+3	:	CH	O	1	punct
+4	0243.2668.301	M	O	1	det
+5	-	CH	O	1	punct
+6	096.519.1111	M	O	1	det
+7	P.	Ny	B-LOC	1	nmod
+8	InternetTV	Np	I-LOC	1	nmod
+9	:	CH	O	1	punct
+10	024.32.669.547	M	O	1	nmod
+11	-	CH	O	10	punct
+12	0912.207.322	M	O	10	det
+
