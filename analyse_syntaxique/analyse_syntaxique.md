@@ -1,13 +1,13 @@
 # Analyse syntaxique 
 
-### 1. Démarche globale : 
+### Démarche globale : 
 
 Nous souhaitons faire une analyse contrastive entre ces sites pour confronter la narrative sur une presse "libre" au vietnam. Est-ce que les seules ressources disponibles prouvent qu'il existe une pluralité idéologique de la presse ? Est-ce que nous retrouvons des formes de discours, des récurrences ? Celles-ci appuient-elles notre travail initial de recherche ? 
 
 Notre recherche est au-delà d'une simple analyse syntaxique. En effet, elle tend plutôt à s'inscrire dans une analyse du discours. Celle-ci ne considère pas ce corpus comme un support d'information mais bien comme nous avons tenté de le démontrer dans notre premier devoir est plutôt de considérer ce corpus et chacun des textes qui le composent comme un *texte*. 
 Ainsi, notre étude cherche à être sémiologique. En effet, notre première partie consistait à définir les "lois qui régissent l'univers raconté" (Claude Bremond, La logique des possibles narratifs)c'est à dire le contexte politique et médiatique de la presse vietnamienne sur internet et dans un second temps, celui du présent devoir qui est "l'analyse techniques de narration" que nous essayons de faire à l'aide d'une analyse du discours. 
 
-### 2. Le corpus : 
+### Le corpus : 
 
 Contrairement au premier semestre, nous avons travaillé sur deux corpus différents :
 
@@ -16,7 +16,7 @@ Le premier est constitué de 3 sites vietnamiens (disponible à l'international)
 A l'avant dernière séance, Mr. Valette nous a parlé de faire plutôt une comparaison avec un corpus français.
 Nous avons donc constitué un nouveau corpus pour avoir des articles à des dates similaires. Ce fût un semi-échec : Bao Tin Tuc n'a pas de version française et Nhan Dan bloque le scraping à 30 URLs sur le site français. Nous n'avons pas eu le temps de trouver une méthode pour contourner ça. Nous sommes donc ressorti avec un corpus déséquilibré : le corpus Nhan Dan est composé de 525 articles vietnamien mais seulement 30 français. Par contre, pour VietnamPlus, tout a marché : nous avons donc 500 articles vietnamiens et 500 articles français.
 
-### 3. Rappel premier semestre :
+### Rappel premier semestre :
 
 Au premier semestre, nous avions fait une analyse LDA au corpus constitué des trois sites. Nous avons refait la même chose sur le nouveau corpus.
 Pour le corpus VNP, en vietnamien, les 5 mots qui ressortent le plus sont les suivants :
@@ -49,7 +49,7 @@ et pour le français :
 
 Ces résultats montrent que même en France, les articles sont portés vers la "coopération internationale" pour la "paix" et la "sécurité" du pays.
 
-### 4. Quels sont les patterns auxquels nous nous attendons à rencontrer ? Pourquoi cette démarche ? 
+### Quels sont les patterns auxquels nous nous attendons à rencontrer ? Pourquoi cette démarche ? 
 
 L'analyse syntaxique consiste à mettre en évidence la structure d'un texte, généralement une phrase écrite dans une langue naturelle. 
 Dans la phrase syntaxique, que nous considérons comme une unité de sens, nous retrouvons 2 constituants obligatoires : le sujet et le prédicat. Nous pouvons également retrouver un troisième constituant : le complément de phrase. 
@@ -57,7 +57,7 @@ Pour déterminer le nombre de phrase syntaxique il faut compter le nombre de ver
 Dans la grammaire vietnamienne la construction de la phrase est la même qu'en français. 
 Nous pouvons aussi regarder les phrases annotées comme passives ? 
 
-### 5. Quels sont les outils que nous utilisons pour mettre en évidence les patterns syntaxiques ? 
+### Quels sont les outils que nous utilisons pour mettre en évidence les patterns syntaxiques ? 
 
 Nous utilisons dans un premier temps un annotateur qui nous permet d'annoter syntaxiquement les phrases. 
 Pour ce faire, nous utilisons l'outil : VnCoreNLP 
@@ -71,17 +71,81 @@ En revanche, le compte-rendu de notre travail actuel nous permets dors et déjà
 
 Dans un soucis de traitement égalitaire, nous avons, malgré les outils existant pour le français, choisi de le traiter avec des outils similaires et en recherchant les mêmes patterns. 
 
-### 6. Premiers résultats 
+### Premiers résultats 
 
 Pour la première recherche, je veux identifier les sujets et le COD qui leur est associé pour mettre en evidence leur position. 
 J'essaye dans un premier temps sur quatre urls. Une fois les résultats dans un fichier csv, je produis et execute un script qui me permet de mettre en valeur les combinaisons qui apparaissent le plus. 
 Ce test sur quelques urls nous pousse à nous interroger sur la généralisation de ces outils semi-automatiques qui rendent l'analyse pénible et coûteuse. De même, est-ce que nos machines seront capable de supporter 
 
-### 7. Résultats sur notre corpus (français et vietnamien) 
+### Résultats sur le corpus vietnamien (3 sites)
+
+Nous avons pris les 10 mots les plus fréquents dans le corpus : 
+
+ND :
+('Thủ_tướng', 252) : premier ministre
+('ông', 157) et ('Ông', 99) : titre de respect équivalent à "Monsieur"
+('bên', 152) : côté, parti
+('nước', 144) : pays
+('Đây', 116) : ici, voici
+('người', 95) : personne
+('Việt_Nam', 90) : Vietnam
+('phụ_nữ', 87) : femme
+('doanh_nghiệp', 61) : entreprise
+
+VNP :
+('Thủ_tướng', 228) : premier ministre
+('Chủ_tịch', 217) : président
+('Việt_Nam', 210) : Vietnam
+('Ông', 190) et ('ông', 170) : titre de respect équivalent à "Monsieur"
+('bên', 140) : côté, parti
+('nước', 140) : pays
+('người', 120) : personne
+('Bộ', 107) : ensemble
+('cơ_quan', 99) : établissement
+
+BTT :
+('ông', 286) et ('Ông', 141) : titre de respect équivalent à "Monsieur"
+('người', 226) : personne
+('họ', 176) : "ils"
+('nước', 128) : pays
+('Tổng_thống', 126) : président
+('việc', 122) : travail
+('Mỹ', 98) : Amérique
+('cuộc', 91) : partie
+('lực_lượng', 83) : forces
+
+### Résultats sur notre corpus (français et vietnamien) 
+
+Comme précédemment, nous avons pris les 10 mots les plus fréquents :
+
+ND :
+('cơ_quan', 419)  : établissement
+('hiệu_quả', 120) : effet, efficacité
+('Thượng_tướng', 105) : général de corps d'armée
+('Thủ_tướng', 105) : premier ministre
+('bên', 105) : côté, parti
+('ông', 105) : titre de respect équivalent à "Monsieur"
+('đơn_vị', 90) : unité, division
+('Bộ_trưởng', 90) : ministre
+('đại_biểu', 75) : délégué, représentant
+('Chủ_tịch', 75) : président
+
+VNP :
+('Thủ_tướng', 400) : général de corps d'armée
+('lực_lượng', 300) : forces 
+('Việt_Nam', 275) : VN
+('bên', 275) : parti, côté
+('Brazil', 250) : brésil
+('ông', 225) : titre de respect équivalent à "Monsieur"
+('nước', 225) : pays
+('Bộ_trưởng', 200) : ministre
+('Đại_tướng', 200) : général d'armée
+('Đây', 175) : ici, voici
+
+Comme pour l'analyse LDA, des mots qui tournent autour du contexte "défense" ressortent mais plus pour parler de défense de l'armée. Ici, il n'est plus question de coopération ou de paix mais plutôt d'efficacité, de forces.
 
 
-
-### 8. Limites de notre étude
+### Limites de notre étude
 
 Notre travail d'analyse rencontre plusieurs problèmes méthodologiques majeurs qu'il est important de signaler. 
 Tout d'abord notre corpus n'est pas parfaitement équilibré puisque certains sites sont équipés de pare-feu ce qui nous empêche d'avoir un corpus véritablement représentatif et équilibré. Ainsi les prémices de nos recherches seraient à confirmer en les transférant sur un corpus plus fiable. 

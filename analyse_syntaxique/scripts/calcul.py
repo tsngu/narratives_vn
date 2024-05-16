@@ -17,7 +17,7 @@ def sortFreqDict(freqs_mots):
     return sorted(freqs_mots.items(), key=lambda x: x[1], reverse=True)[:100]
 
 if __name__ == "__main__":
-    fichier = '../nv_corpus/output/resultats_sub_root_cau_vnp.csv'
+    fichier = '../ancien_corpus/output/resultats_suj_cod_btt.csv'
     c = colonne(fichier, 1)
     #print("Type de la colonne :", type(c))
     res = wordListToFreqDict(c)
