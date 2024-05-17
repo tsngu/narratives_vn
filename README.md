@@ -16,6 +16,10 @@
 - **lda_generale** permet de faire la visualisation de tous les articles ensemble, pour pouvoir comparer.
 - **tokenizer_vn** permet de tokenizer les articles.
 - **vncorenlp_script** permet d'obtenir des treebanks. Il faut l'appliquer sur des textes non tokénisés.
+- **S_V_COD.py** : permet d'extraire sujet, verbe et complément d'objet direct 
+- **S_V_raison.py** : finalement nous ne l'avons pas utilisé car les résultats n'était pas satisfaisant mais permet d'extraire sujet + verbe + CCcause 
+- **calcul.py** : permet de faciliter le traitement des fichiers csv de sortie. 
+- **dependencies.py** : permet de parser et d'extraire la structure : suj+verbe+cod.
 
 **txt** :
 - **urls**_nomSite sont les fichiers d'urls créées par les scripts **scrap_urls**.
