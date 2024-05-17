@@ -14,7 +14,8 @@ Contrairement au premier semestre, nous avons travaillé sur deux corpus différ
 Le premier est constitué de 3 sites vietnamiens (disponible à l'international) : Nhan Dan, Vietnam Plus et Bao Tin Tuc. Nous avons scrap 500 articles par site en utilisant le mot clé "Quoc phong", c'est-à-dire "Défense". 
 
 A l'avant dernière séance, Mr. Valette nous a parlé de faire plutôt une comparaison avec un corpus français.
-Nous avons donc constitué un nouveau corpus pour avoir des articles à des dates similaires. Ce fût un semi-échec : Bao Tin Tuc n'a pas de version française et Nhan Dan bloque le scraping à 30 URLs sur le site français. Nous n'avons pas eu le temps de trouver une méthode pour contourner ça. Nous sommes donc ressorti avec un corpus déséquilibré : le corpus Nhan Dan est composé de 525 articles vietnamien mais seulement 30 français. Par contre, pour VietnamPlus, tout a marché : nous avons donc 500 articles vietnamiens et 500 articles français.
+Nous avons donc constitué un nouveau corpus pour avoir des articles à des dates similaires. Ce fût un semi-échec : Bao Tin Tuc n'a pas de version française et Nhan Dan bloque le scraping à 30 URLs sur le site français. Nous n'avons pas eu le temps de trouver une méthode pour contourner ça. Nous sommes donc ressorti avec un corpus déséquilibré : le corpus Nhan Dan est composé de 525 articles vietnamien mais seulement 30 français. Par contre, pour VietnamPlus, tout a marché : nous avons donc 500 articles vietnamiens et (500) articles français. (C'est ce que nous pensions) 
+En appliquant les outils d'analyses, nous nous sommes rendus compte que les articles étaient soit vides, soit en doublons. Il était trop tard pour tout modifier, nous ne pouvons donc pas proposer une étude vraiment comparative. 
 
 ### Rappel premier semestre :
 
@@ -73,9 +74,10 @@ Dans un soucis de traitement égalitaire, nous avons, malgré les outils existan
 
 ### Premiers résultats 
 
-Pour la première recherche, je veux identifier les sujets et le COD qui leur est associé pour mettre en evidence leur position. 
-J'essaye dans un premier temps sur quatre urls. Une fois les résultats dans un fichier csv, je produis et execute un script qui me permet de mettre en valeur les combinaisons qui apparaissent le plus. 
-Ce test sur quelques urls nous pousse à nous interroger sur la généralisation de ces outils semi-automatiques qui rendent l'analyse pénible et coûteuse. De même, est-ce que nos machines seront capable de supporter 
+Pour la première recherche, nous cherchons à identifier les sujets et le COD qui leur est associé pour mettre en evidence leur position. 
+J'essaye dans un premier temps sur quatre urls. Une fois les résultats dans un fichier csv, nous produisons et executons un script qui permet de mettre en valeur les combinaisons qui apparaissent le plus. 
+Ce test sur quelques urls nous pousse à nous interroger sur la généralisation de ces outils semi-automatiques qui rendent l'analyse pénible et coûteuse. De même, est-ce que nos machines seront capable de supporter un si gros corpus. 
+Nos craintes se sont confirmés puisque l'analyse de corpus aussi gros empêche de fiables vérifications humaines. 
 
 ### Résultats sur le corpus vietnamien (3 sites)
 
@@ -143,14 +145,16 @@ VNP :
 ('Đây', 175) : ici, voici
 
 Comme pour l'analyse LDA, des mots qui tournent autour du contexte "défense" ressortent mais plus pour parler de défense de l'armée. Ici, il n'est plus question de coopération ou de paix mais plutôt d'efficacité, de forces.
+On remarque que souvent, les deux entités autour du verbe sont des 
 
+Pour le peu d'information que nous obtenons sur le corpus français, nous pouvons témoigner de prémice de "tendance", notamment que pour le thème défense, on retrouve souvent des grades. Ce qui peut montrer que souvent les protagonistes sont plutôt des individus ("ministre", "ambassadeur",...) et non des entités même si celles-ci ne sont pourtant pas absentes. Nous retrouvons donc une volonté? d'identifier les protagonistes par des figures plus "humaines". La défense étant une question plutôt de diplomatie, on peut s'interroger sur le sens que pourrait avoir cette utilisation. 
 
 ### Limites de notre étude
 
 Notre travail d'analyse rencontre plusieurs problèmes méthodologiques majeurs qu'il est important de signaler. 
 Tout d'abord notre corpus n'est pas parfaitement équilibré puisque certains sites sont équipés de pare-feu ce qui nous empêche d'avoir un corpus véritablement représentatif et équilibré. Ainsi les prémices de nos recherches seraient à confirmer en les transférant sur un corpus plus fiable. 
 Et, étant limité dans l'utilisation de logiciels de textométris, nous avons exclusivement traité la syntage à l'aide de scripts python. Ce qui forcément oriente notre recherche et empêche en un sens de "laisser parler" le corpus. 
-Malgré cela, nous pensons que notre étude garde une pertinence et qu'elle est encourageante pour des travaux futurs. Ce sujet de recherche mérite plus de temps et de moyens afin de vraiment "creuser" la question. 
+Malgré cela, nous pensons que notre étude garde une pertinence et qu'elle est encourageante pour des travaux futurs. Ce sujet de recherche mérite plus de temps et de moyens afin de vraiment "creuser" la question. Il nous aurait fallu plus de temps pour reconstituer un corpus comme nous avions pu le faire au premier semestre. 
 
 
 ### Bibliographie 
